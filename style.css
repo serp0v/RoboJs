@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    margin: 0;
+}
+a {
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+}
+.header-nav-a:hover {
+    text-decoration: underline;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    /* overflow: hidden; */
+}
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    min-width: 320px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.header-wrapper {
+    width: 100%;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container {
+    max-width: 1102px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    border: 1px solid #000;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 60px;
+}
+.spa-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 81px;
+    padding-right: 81px;
+}
+.nav-item {
+    list-style: none;
+    font-size: 36px;
+}
+.nav-item ~ .nav-item {
+    margin-left: 57px;
+}
+.log-sign {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    font-size:36px;
+}
+.log-sign > button {
+    display: flex;
+    font-size: 36px;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 58px;
+    border: 1px solid #000000;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+button > p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-sign > button ~ button {
+    margin-left: 43px;
+}
+.log-form {
+    
+}
+.log-form {
+
+}
+    /* mobile */
+.header-container-mobile {
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #000;
+}
+.burger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-right: 7px;
+    margin-left: auto;
+}
+.main-wrapper {
+    height: calc(100% - 188px);
+    width: 100%;
+    display: flex;
+}
+.main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.company-name {
+    font-size: 96px;
+}
+.company-description {
+    font-size: 48px;
+    margin-top: -27px;
+    padding-bottom: 13px;
+}
+.robots {
+    background-color: rgb(212, 12, 12);
+    height: 100px;
+    width: 100px;
+    display: none;
+    position: absolute;
+    z-index: 9999;
+}
+/*  */
+.footer-wrapper {
+    height: 94px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: -3px;
+}
+.licence {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.dn {
+    display: none;
+}
+@media(max-width: 1200px) {
+    .header-container {
+        background-color: rgb(0, 0, 0);
+        display: none;
+    }
+    .header-container-mobile {
+        display: flex;
+    }
+    .logo {
+        border: none;
+    }
+}
+@media(max-width: 768px) {
+    .company-name {
+        font-size: 80px;
+    }
+    .footer-container {
+        font-size: 20px;
+    }
+    .company-description {
+        font-size: 40px;
+        margin-top: -22.5px;
+        padding-bottom: 13px;
+    }
+}
+@media(max-width: 568px) {
+    .company-name {
+        font-size: 64px;
+    }
+    .footer-container {
+        font-size: 16px;
+    }
+    .company-description {
+        font-size: 32px;
+        margin-top: -18px;
+        padding-bottom: 10.4px;
+    }
+}
+@media(max-width: 442px) {
+    .company-name {
+        font-size: 46px;
+    }
+    .company-description {
+        font-size: 22px;
+        margin-top: -13.5px;
+        padding-bottom: 8px;
+    }
+}

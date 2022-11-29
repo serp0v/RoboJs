@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="robots.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-wrapper">
+            <div class="header-container">
+                <div class="logo"><p>RoboVue</p></div>
+                <ul class="spa-navigation">
+                    <li class="nav-item"><a class="header-nav-a" href="#Home">Home</a></li>
+                    <li class="nav-item"><a id="robots" class="header-nav-a" href="#Robots">Robots</a></li>
+                    <li class="nav-item"><a class="header-nav-a" href="#Software">Software</a></li>
+                    <li class="nav-item"><a class="header-nav-a" href="#Contact">Contact</a></li>
+                </ul>
+                <div class="log-sign">
+                    <button id="logBtn"  class="log-in">
+                        <p>Log in</p>
+                    </button>
+                    <button id="signBtn" class="sign-up">
+                        <p>Sign up</p>
+                    </button>
+                </div>
+            </div>
+            <div class="header-container-mobile">
+                <div class="logo">RoboVue</div>
+                <div class="burger-menu">
+                    <svg viewBox="0 0 100 60" width="30" height="30">
+                        <rect width="100" height="12"></rect>
+                        <rect y="33" width="100" height="12"></rect>
+                        <rect y="66" width="100" height="12"></rect>
+                    </svg>
+                </div>
+            </div>
+        </header>
+
+
+
+        <main class="main-wrapper">
+            <div class="main-container">
+
+
+                <div id="homePage" class="home-page">
+                    <div class="company-name">RoboVue</div>
+                    <div class="company-description">The largest online store of robots<br>in the world.</div>
+                </div>
+
+
+
+            </div>
+            <div id="robotsPage" class="robots-container dn">
+                <div class="sorting"></div>
+                <div class="robots-cats-grid"></div>
+            </div>
+        </main>
+
+
+
+        <footer class="footer-wrapper">
+            <div class="footer-container">
+                <p class="licence">Nothing is not protected. Even robots. Beep Boop.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
