@@ -12,12 +12,12 @@
     <div class="wrapper">
         <header class="header-wrapper">
             <div class="header-container">
-                <div class="logo"><p>RoboVue</p></div>
+                <div id="logoBtn" class="logo"><p>RoboVue</p></div>
                 <ul class="spa-navigation">
-                    <li class="nav-item"><a class="header-nav-a" href="#Home">Home</a></li>
-                    <li class="nav-item"><a id="robots" class="header-nav-a" href="#Robots">Robots</a></li>
-                    <li class="nav-item"><a class="header-nav-a" href="#Software">Software</a></li>
-                    <li class="nav-item"><a class="header-nav-a" href="#Contact">Contact</a></li>
+                    <li class="nav-item"><a id="homeBtn" class="header-nav-a" href="#Home">Home</a></li>
+                    <li class="nav-item"><a id="robotsBtn" class="header-nav-a" href="#Robots">Robots</a></li>
+                    <li class="nav-item"><a id="softwareBtn" class="header-nav-a" href="#Software">Software</a></li>
+                    <li class="nav-item"><a id="contactBtn" class="header-nav-a" href="#Contact">Contact</a></li>
                 </ul>
                 <div class="log-sign">
                     <button id="logBtn"  class="log-in">
@@ -43,21 +43,23 @@
 
 
         <main class="main-wrapper">
+
             <div class="main-container">
-
-
                 <div id="homePage" class="home-page">
                     <div class="company-name">RoboVue</div>
                     <div class="company-description">The largest online store of robots<br>in the world.</div>
                 </div>
-
-
-
+                <div id="robotsPage" class="robots-container dn">
+                    <div class="sorting"></div>
+                    <div class="robots-cats-grid"></div>
+                </div>
+    
+                <div id="softwarePage"></div>
+                <div id="contactPage"></div>
             </div>
-            <div id="robotsPage" class="robots-container dn">
-                <div class="sorting"></div>
-                <div class="robots-cats-grid"></div>
-            </div>
+
+
+
         </main>
 
 
