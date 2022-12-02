@@ -1,0 +1,14 @@
+.contact-page {
+    max-width: 1102px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    height: 583px;
+    border-radius: 25px;display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 71px 132.5px
+    /* display: flex; */
+}
+.dn {
+    display: none;
+}

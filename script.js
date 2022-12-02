@@ -29,33 +29,33 @@ function displayNonePages() {
 } 
 
 logoBtn.onclick = () => {
-    if (homePage.classList = 'dn') {
+    if (homePage.classList.contains('dn')) {
         displayNonePages();
         homePage.classList.remove('dn');
     }
 }
 homeBtn.onclick = () => {
-    if (homePage.classList = 'dn') {
+    if (homePage.classList.contains('dn')) {
         displayNonePages();
         homePage.classList.remove('dn');
     }
 }
 robotsBtn.onclick = () => {
-    if (robotsPage.classList = 'dn') {
+    if (robotsPage.classList.contains('dn')) {
         displayNonePages();
         robotsPage.classList.remove('dn');
     }
 }
 softwareBtn.onclick = () => {
-    if (softwarePage.classList = 'dn') {
+    if (softwarePage.classList.contains('dn')) {
         displayNonePages();
         softwarePage.classList.remove('dn');
     }
 }
 contactBtn.onclick = () => {
-    if (contactPage.classList = 'dn') {
+    if (contactPage.classList.contains('dn')) {
         displayNonePages();
-        contactPage.classList.remove('dn');
+        contactPage.classList = 'contact-page';
     }
 }
 logBtn.onclick = () => {
@@ -67,3 +67,4 @@ signBtn.onclick = () => {
 
 
 // move id's to <1200px width design
+// баг: удаляются все классы при клике, а должен только dn
